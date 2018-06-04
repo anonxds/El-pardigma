@@ -1,0 +1,156 @@
+
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
+@import url("https://fonts.googleapis.com/css?family=Allan|Almendra+SC|UnifrakturMaguntia");
+@import url("https://fonts.googleapis.com/css?family=Julee");
+@import url("https://fonts.googleapis.com/css?family=Almendra");
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Creepster|Eater|Nosifer');
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+
+.part2{
+    color: white;
+    text-align: center;
+}
+
+
+
+span:before{
+content: 'Las palabras estan en presente';
+animation: animate infinite 20s;
+}
+@keyframes animate{
+    0%{
+        content: ' . ';
+
+    }
+    25%
+    {
+     content: 'Las palabras estan en presente';
+    }
+    50%{
+        content: 'Algunas son la misma palabra';
+
+    }
+    75%{
+       content:'Algunas palabras valen mas que las otras';
+    }
+    100%{
+        content: 'Trata de usar sinonimos de las palabras';
+
+    }
+}
+
+.Letter{
+    background-image: url('/src/img/paper.jpg');
+    background-size: contain;
+    position: absolute;
+    bottom: -360px;
+    widows: 100%;
+    left: 9px;
+    height: auto;
+   box-shadow: 0px 0px 10px 2px grey;
+    
+    font-size: 14px;
+    font-family: 'Julee', cursive;
+    
+}
+.input{
+   opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.Letterobj{
+    position: absolute;
+    top: -20px;
+    right: 150px;
+    font-family: 'Almendra', serif;
+    font-size: 30px;
+}
+.objetivos{
+    background-image: url('/src/img/Parch.png');
+/*     
+    background-size: cover;
+   width: 400px;
+   height: 400px;
+    resize: both;
+    position: fixed;
+    bottom: 10rem;
+    right: 10rem;
+    text-align:  center; */
+    
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0px 0pxm 10px 2px grey;
+    background-size: cover;
+    position: absolute;
+    right: 220px;
+    top: -1.8rem;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+}
+
+
+
+
+
+h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+}
+h1:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+h1:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+.modaltextRank{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 7rem;
+}
+.modaltextScore{
+    font-family: 'Cinzel Decorative', cursive;
+     font-size: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 11rem;
+    left: 7rem;
+}
+.Linktext{
+    color: wheat;
+    font-family: 'Faster One', cursive;
+    font-size: 2rem;
+    position: absolute;
+    top: 22.5rem;
+    left: 20rem;
+
+}
+.checked{
+    position: absolute;
+    top: 1rem;
+    left: 26rem;
+
+}
+
